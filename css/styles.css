@@ -264,3 +264,93 @@ header{
 .header-second-list{
     font-family: 'Kode Mono';
 }
+
+/* HOMEWORK 10 */
+.header-list .home-pic{
+    position: relative;
+    padding-left: 28px;
+}
+.header-list .gallery-pic{
+    position: relative;
+    padding-left: 28px;
+}
+.header-list .arrow-down-pic{
+    position: relative;
+    padding-right: 28px;
+}
+.header-list .arrow-left-pic{
+    position: relative;
+    padding-left: 28px;
+}
+.home-pic::before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 4px;
+    left: 0;
+    background: url('../images/home.svg') no-repeat 50%/28px;
+}
+.gallery-pic::before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 4px;
+    background: url('../images/paw.svg') no-repeat 50%/20px;
+}
+.arrow-down-pic::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 8px;
+    left: 82%;
+    background: url('../images/arrow-down.svg') no-repeat 50%/20px;
+}
+.arrow-left-pic::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 7px;
+    left: 16px;
+    background: url('../images/arrow-left.svg') no-repeat 50%/25px;
+}
+/* footer */
+
+.footer-socials{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer{
+    padding: 60px 0;
+    background-color: rgb(242, 146, 162);
+}
+footer a{
+    display: block;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    background: url('../images/insta.svg') no-repeat 50%/40px;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    background: url('../images/facebook.svg') no-repeat 50%/40px;
+}
+.yt{
+    width: 40px;
+    height: 40px;
+    background: url('../images/youtube.svg') no-repeat 50%/40px;
+}
+.reddit{
+    width: 40px;
+    height: 40px;
+    background: url('../images/reddit.svg') no-repeat 50%/40px;
+}
